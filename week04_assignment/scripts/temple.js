@@ -106,7 +106,7 @@ oldTempleLink.addEventListener("click", (event) => {
       event.preventDefault();
       createCard(temples.filter(temple => {
       const year = parseInt(temple.dedicated.split(",")[0]);
-      return year < 2000;
+      return year < 1900;
     }));
 
 });
