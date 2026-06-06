@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wdd 131 - Product Review</title>
-    <meta name="description" content="Product Review Form.">
+    <meta name="description" content="Submit a product review by rating products, selecting useful features, and sharing your experience with an easy-to-use review form.">
     <meta name="author" content="Paula Jessica Silva">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,18 +22,18 @@
             <fieldset >
                 <label for="productName">Product Name *
                     <select id="productName" name="productName" required>
-                        <option value="" disabled selected> Choose a Product ...</option>
+                        <option value="" disabled selected> Select a Product ...</option>
                     </select>
                 </label>
             </fieldset>
         
             <fieldset class="rating-group">
                 <legend>Overall Rating *</legend>
-                <label><span>☆</span><input type="radio" name="rating" value="1" required></label>
-                <label><span>☆☆</span><input type="radio" name="rating" value="2" required></label>
-                <label><span>☆☆☆</span><input type="radio" name="rating" value="3" required></label>
-                <label><span>☆☆☆☆</span><input type="radio" name="rating" value="4" required></label>
-                <label><span>☆☆☆☆☆</span><input type="radio" name="rating" value="5" required></label>
+                <label><span>☆</span><input type="radio" id="star1" name="rating" value="1" required></label>
+                <label><span>☆☆</span><input type="radio" id="star2" name="rating" value="2" required></label>
+                <label><span>☆☆☆</span><input type="radio" id="star3" name="rating" value="3" required></label>
+                <label><span>☆☆☆☆</span><input type="radio" id="star4" name="rating" value="4" required></label>
+                <label><span>☆☆☆☆☆</span><input type="radio" id="star5" name="rating" value="5" required></label>
             </fieldset>
 
             <fieldset>
